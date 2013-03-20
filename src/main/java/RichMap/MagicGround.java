@@ -13,4 +13,9 @@ public class MagicGround extends Ground {
     public String getDisplayName() {
         return "M";
     }
+
+    @Override
+    public GroundType getGroundType() {
+        return GroundType.Magic;
+    }
 }

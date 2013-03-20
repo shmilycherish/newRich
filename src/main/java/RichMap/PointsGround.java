@@ -13,9 +13,18 @@ public class PointsGround extends Ground {
         this.points=points;
     }
 
+    public PointsGround() {
+
+    }
+
     @Override
     public String getDisplayName() {
         return "$";
+    }
+
+    @Override
+    public GroundType getGroundType() {
+        return GroundType.Points;
     }
 
     public int getPoints() {

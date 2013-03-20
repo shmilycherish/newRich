@@ -17,7 +17,7 @@ import static org.junit.Assert.assertThat;
  * Time: 下午8:32
  * To change this template use File | Settings | File Templates.
  */
-public class RichMapTest {
+public class RichGameMapTest {
     @Test
     public void shouldGetCorrectInformationWhenInitializeRichMap() {
         RichGameMap richMap=new RichGameMap() ;
@@ -25,7 +25,7 @@ public class RichMapTest {
 
         assertThat(grounds.size(), is(70));
         assertThat(grounds.get(0).getDisplayName(),is("S"));
-        assertThat(grounds.get(1),isHouseGroundAs("0",200));
+        assertThat(grounds.get(1),isHouseGroundAs("0", 200));
         assertThat(grounds.get(13),isHouseGroundAs("0",200));
         assertThat(grounds.get(14).getDisplayName(),is("H"));
         assertThat(grounds.get(15),isHouseGroundAs("0",200));
@@ -40,8 +40,14 @@ public class RichMapTest {
         assertThat(grounds.get(50),isHouseGroundAs("0",300));
         assertThat(grounds.get(62),isHouseGroundAs("0",300));
         assertThat(grounds.get(63).getDisplayName(),is("M"));
-        assertThat(grounds.get(64),isPointsGroundAs("$",20));
+        assertThat(grounds.get(64),isPointsGroundAs("$", 20));
         assertThat(grounds.get(69),isPointsGroundAs("$",60));
+    }
+
+    @Test
+    public void shouldGetStartGroundRight(){
+        RichGameMap richGameMap=new RichGameMap();
+        assertThat(richGameMap.getGround(0).getDisplayName(),is("S"));
     }
 
     private Matcher<? super Ground> isHouseGroundAs(final String displayName, final int price) {

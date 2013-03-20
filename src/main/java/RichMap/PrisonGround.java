@@ -9,6 +9,11 @@ package RichMap;
  */
 public class PrisonGround extends Ground {
     @Override
+    public GroundType getGroundType() {
+        return GroundType.Prison;
+    }
+
+    @Override
     public String getDisplayName() {
         return "P";
     }

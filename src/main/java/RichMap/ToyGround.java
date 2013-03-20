@@ -12,4 +12,9 @@ public class ToyGround extends Ground {
     public String getDisplayName() {
         return "T";
     }
+
+    @Override
+    public GroundType getGroundType() {
+        return GroundType.Toy;
+    }
 }

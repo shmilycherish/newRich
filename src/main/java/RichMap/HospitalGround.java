@@ -12,4 +12,9 @@ public class HospitalGround extends Ground {
     public String getDisplayName() {
         return "H";
     }
+
+    @Override
+    public GroundType getGroundType() {
+        return GroundType.Hospital;
+    }
 }

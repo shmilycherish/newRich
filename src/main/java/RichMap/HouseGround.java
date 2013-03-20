@@ -13,9 +13,18 @@ public class HouseGround extends Ground {
         this.price=price;
     }
 
+    public HouseGround() {
+
+    }
+
     @Override
     public String getDisplayName() {
         return "0"; 
+    }
+
+    @Override
+    public GroundType getGroundType() {
+        return GroundType.Clearing;
     }
 
     public int getPrice() {

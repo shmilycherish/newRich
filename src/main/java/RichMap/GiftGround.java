@@ -12,4 +12,9 @@ public class GiftGround extends Ground {
     public String getDisplayName() {
         return "G";
     }
+
+    @Override
+    public GroundType getGroundType() {
+        return GroundType.Gift;
+    }
 }

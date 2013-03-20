@@ -8,8 +8,9 @@ package RichMap;
  * To change this template use File | Settings | File Templates.
  */
 public  abstract class Ground {
-    private String DisplayName;
+    public Ground(){};
     public abstract  String getDisplayName();
 
 
+    public abstract GroundType getGroundType();
 }
