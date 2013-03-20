@@ -5,8 +5,6 @@ import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;
 import org.junit.Test;
 
-import java.util.List;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -18,36 +16,28 @@ import static org.junit.Assert.assertThat;
  * To change this template use File | Settings | File Templates.
  */
 public class RichGameMapTest {
-    @Test
-    public void shouldGetCorrectInformationWhenInitializeRichMap() {
-        RichGameMap richMap=new RichGameMap() ;
-        List<Ground> grounds = richMap.getMap();
-
-        assertThat(grounds.size(), is(70));
-        assertThat(grounds.get(0).getDisplayName(),is("S"));
-        assertThat(grounds.get(1),isHouseGroundAs("0", 200));
-        assertThat(grounds.get(13),isHouseGroundAs("0",200));
-        assertThat(grounds.get(14).getDisplayName(),is("H"));
-        assertThat(grounds.get(15),isHouseGroundAs("0",200));
-        assertThat(grounds.get(27),isHouseGroundAs("0",200));
-        assertThat(grounds.get(28).getDisplayName(),is("T"));
-        assertThat(grounds.get(29),isHouseGroundAs("0",500));
-        assertThat(grounds.get(34),isHouseGroundAs("0",500));
-        assertThat(grounds.get(35).getDisplayName(),is("G"));
-        assertThat(grounds.get(36),isHouseGroundAs("0",300));
-        assertThat(grounds.get(48),isHouseGroundAs("0",300));
-        assertThat(grounds.get(49).getDisplayName(),is("P"));
-        assertThat(grounds.get(50),isHouseGroundAs("0",300));
-        assertThat(grounds.get(62),isHouseGroundAs("0",300));
-        assertThat(grounds.get(63).getDisplayName(),is("M"));
-        assertThat(grounds.get(64),isPointsGroundAs("$", 20));
-        assertThat(grounds.get(69),isPointsGroundAs("$",60));
-    }
 
     @Test
     public void shouldGetStartGroundRight(){
         RichGameMap richGameMap=new RichGameMap();
-        assertThat(richGameMap.getGround(0).getDisplayName(),is("S"));
+        assertThat(richGameMap.getGround(0).getGroundType(),is(GroundType.Start));
+        assertThat(richGameMap.getGround(1).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(13).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(14).getGroundType(),is(GroundType.Hospital));
+        assertThat(richGameMap.getGround(15).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(27).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(28).getGroundType(),is(GroundType.Toy));
+        assertThat(richGameMap.getGround(29).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(34).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(35).getGroundType(),is(GroundType.Gift));
+        assertThat(richGameMap.getGround(36).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(48).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(49).getGroundType(),is(GroundType.Prison));
+        assertThat(richGameMap.getGround(50).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(62).getGroundType(),is(GroundType.Clearing));
+        assertThat(richGameMap.getGround(63).getGroundType(),is(GroundType.Magic));
+        assertThat(richGameMap.getGround(64).getGroundType(),is(GroundType.Points));
+        assertThat(richGameMap.getGround(69).getGroundType(),is(GroundType.Points));
     }
 
     private Matcher<? super Ground> isHouseGroundAs(final String displayName, final int price) {
