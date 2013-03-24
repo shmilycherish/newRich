@@ -8,10 +8,7 @@ package RichMap;
  * To change this template use File | Settings | File Templates.
  */
 public class ToyGround extends Ground {
-    @Override
-    public String getDisplayName() {
-        return "T";
-    }
+
 
     @Override
     public GroundType getGroundType() {

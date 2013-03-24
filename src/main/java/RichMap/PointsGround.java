@@ -17,10 +17,7 @@ public class PointsGround extends Ground {
 
     }
 
-    @Override
-    public String getDisplayName() {
-        return "$";
-    }
+
 
     @Override
     public GroundType getGroundType() {

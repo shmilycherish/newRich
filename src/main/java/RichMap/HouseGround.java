@@ -17,10 +17,7 @@ public class HouseGround extends Ground {
 
     }
 
-    @Override
-    public String getDisplayName() {
-        return "0"; 
-    }
+
 
     @Override
     public GroundType getGroundType() {

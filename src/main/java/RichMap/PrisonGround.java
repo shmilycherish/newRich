@@ -13,8 +13,5 @@ public class PrisonGround extends Ground {
         return GroundType.Prison;
     }
 
-    @Override
-    public String getDisplayName() {
-        return "P";
-    }
+
 }

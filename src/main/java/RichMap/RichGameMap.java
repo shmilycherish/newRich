@@ -105,4 +105,9 @@ public class RichGameMap {
     public Ground getGround(int groundIndex) {
         return groundList.get(groundIndex);
     }
+
+
+    public Integer getTotalGroundNumber() {
+        return groundList.size();
+    }
 }

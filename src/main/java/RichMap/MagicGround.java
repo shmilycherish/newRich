@@ -9,10 +9,7 @@ package RichMap;
  */
 public class MagicGround extends Ground {
 
-    @Override
-    public String getDisplayName() {
-        return "M";
-    }
+
 
     @Override
     public GroundType getGroundType() {

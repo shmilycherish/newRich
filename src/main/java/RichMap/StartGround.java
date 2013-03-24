@@ -10,10 +10,7 @@ package RichMap;
 public class StartGround  extends Ground{
 
 
-    @Override
-    public String getDisplayName() {
-        return GroundType.Start.getDisplayName();
-    }
+
 
     @Override
     public GroundType getGroundType() {

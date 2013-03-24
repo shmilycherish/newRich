@@ -9,7 +9,7 @@ package RichMap;
  */
 public  abstract class Ground {
     public Ground(){};
-    public abstract  String getDisplayName();
+
 
 
     public abstract GroundType getGroundType();

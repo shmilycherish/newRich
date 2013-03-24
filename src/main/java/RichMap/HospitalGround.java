@@ -8,10 +8,7 @@ package RichMap;
  * To change this template use File | Settings | File Templates.
  */
 public class HospitalGround extends Ground {
-    @Override
-    public String getDisplayName() {
-        return "H";
-    }
+
 
     @Override
     public GroundType getGroundType() {

@@ -8,10 +8,7 @@ package RichMap;
  * To change this template use File | Settings | File Templates.
  */
 public class GiftGround extends Ground {
-    @Override
-    public String getDisplayName() {
-        return "G";
-    }
+
 
     @Override
     public GroundType getGroundType() {

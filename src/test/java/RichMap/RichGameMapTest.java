@@ -1,8 +1,5 @@
 package RichMap;
 
-import org.hamcrest.Description;
-import org.hamcrest.Matcher;
-import org.hamcrest.TypeSafeMatcher;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
@@ -20,6 +17,7 @@ public class RichGameMapTest {
     @Test
     public void shouldGetStartGroundRight(){
         RichGameMap richGameMap=new RichGameMap();
+        assertThat(richGameMap.getTotalGroundNumber(),is(70));
         assertThat(richGameMap.getGround(0).getGroundType(),is(GroundType.Start));
         assertThat(richGameMap.getGround(1).getGroundType(),is(GroundType.Clearing));
         assertThat(richGameMap.getGround(13).getGroundType(),is(GroundType.Clearing));
@@ -40,48 +38,12 @@ public class RichGameMapTest {
         assertThat(richGameMap.getGround(69).getGroundType(),is(GroundType.Points));
     }
 
-    private Matcher<? super Ground> isHouseGroundAs(final String displayName, final int price) {
-        return new TypeSafeMatcher<Ground>() {
-            @Override
-            protected boolean matchesSafely(Ground ground) {
-                HouseGround houseGround=(HouseGround)ground;
-                return houseGround.getDisplayName().equals(displayName) && (houseGround.getPrice() == price);
-            }
-
-            @Override
-            public void describeTo(Description description) {
-            }
-
-            @Override
-            protected void describeMismatchSafely(Ground ground, Description mismatchDescription) {
-                HouseGround houseGround=(HouseGround)ground;
-                String errorMessage = "The ground shouldGetInitStatus be with displayName: " + displayName + ", price: " ;
-                errorMessage += "but in fact is (" + houseGround.getDisplayName() + " " +houseGround.getPrice() +" )";
-                mismatchDescription.appendText(errorMessage);
-            }
-        };
+    @Test
+    public void shouldGetRightSignWhenPrintMapOnConsole(){
+        RichGameMap richGameMap=new RichGameMap();
+        assertThat(richGameMap.getGround(0).getGroundType(),is(GroundType.Start));
     }
 
-    private Matcher<? super Ground> isPointsGroundAs(final String displayName, final int points) {
-        return new TypeSafeMatcher<Ground>() {
-            @Override
-            protected boolean matchesSafely(Ground ground) {
-               PointsGround pointsGround=(PointsGround)ground;
-                return pointsGround.getDisplayName().equals(displayName) && (pointsGround.getPoints() == points);
-            }
 
-            @Override
-            public void describeTo(Description description) {
-            }
-
-            @Override
-            protected void describeMismatchSafely(Ground ground, Description mismatchDescription) {
-                PointsGround pointsGround=(PointsGround)ground;
-                String errorMessage = "The ground shouldGetInitStatus be with displayName: " + displayName + ", price: " ;
-                errorMessage += "but in fact is (" +pointsGround.getDisplayName() + " " +pointsGround.getPoints() +" )";
-                mismatchDescription.appendText(errorMessage);
-            }
-        };
-    }
 
 }
