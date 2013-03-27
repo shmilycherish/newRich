@@ -95,13 +95,6 @@ public class RichGameMap {
         }
     }
 
-
-
-
-    public List<Ground> getMap() {
-        return this.groundList;
-    }
-
     public Ground getGround(int groundIndex) {
         return groundList.get(groundIndex);
     }

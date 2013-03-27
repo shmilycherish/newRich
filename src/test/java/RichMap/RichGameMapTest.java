@@ -39,9 +39,10 @@ public class RichGameMapTest {
     }
 
     @Test
-    public void shouldGetRightSignWhenPrintMapOnConsole(){
-        RichGameMap richGameMap=new RichGameMap();
-        assertThat(richGameMap.getGround(0).getGroundType(),is(GroundType.Start));
+      public void  shouldPrintMapWhenPrintMapOnConsole(){
+
+
+
     }
 
 

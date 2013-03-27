@@ -65,4 +65,15 @@ public class GroundTest {
         HouseGround houseGround = new HouseGround();
         assertThat(houseGround.getGroundType(),is(Clearing));
     }
+
+    @Test
+    public void shouldGetCorrectInformationWhenInitializeEmptyGround() {
+        EmptyGround emptyGround = new EmptyGround();
+        assertThat(emptyGround.getGroundType(),is(Empty));
+    }
+    @Test
+    public void shouldGetCorrectInformationWhenInitializeTurnGround() {
+        TurnGround turnGround = new TurnGround();
+        assertThat(turnGround.getGroundType(),is(Turn));
+    }
 }

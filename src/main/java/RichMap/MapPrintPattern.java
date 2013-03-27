@@ -1,5 +1,6 @@
 package RichMap;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,52 +12,87 @@ import java.util.List;
  */
 public class MapPrintPattern {
 
-    private final int LENGTH=29;
-    private final int WIDTH=6;
-    private String[][] map=new String[LENGTH][WIDTH];
-    private StringBuffer stringBuffer=new StringBuffer();
-    public String generateMapPrintPattern(List<Ground> groundList) {
-        generateFirstLine(groundList);
-        generateMiddleLine(groundList);
-        generateLastLine(groundList);
-        return stringBuffer.toString();
+    List<Ground>  groundMap=  new ArrayList<Ground>() ;
+    private final int LENGTH=30;
+    private final int WIDTH=8;
+    private final int TOTAL=LENGTH*WIDTH;
+    private List<Integer>  relationshipForGroundIndexAndMarchForwardGround=new ArrayList<Integer>() ;
+
+
+    public MapPrintPattern(){
+        initializeRelationship();
+    }
+
+    private void  initializeRelationship() {
+        initializeFirstLineOfRelationshipInTheMap();
+        initializeLastRowOfRelationshipInTheMap();
+        initializeLastLineOfRelationshipInTheMap();
+        initializeFirstRowOfRelationshipInTheMap();
     }
 
 
 
-    private void generateFirstLine(List<Ground> groundList) {
-        for(int count=0;count<LENGTH;count++) {
-            stringBuffer.append(groundList.get(count).getGroundType().getDisplayName()) ;
+    private void initializeFirstLineOfRelationshipInTheMap() {
+        for(int index=0;index<LENGTH-1;index++){
+            relationshipForGroundIndexAndMarchForwardGround.add(index);
         }
-        stringBuffer.append("\n");
     }
 
-    private void generateMiddleLine(List<Ground> groundList) {
-        for(int lastGroundIndex=LENGTH,firstGroundIndex=groundList.size()-1,count=0;count<WIDTH;count++,lastGroundIndex++,firstGroundIndex--) {
-            generateLine(groundList.get(firstGroundIndex),groundList.get(lastGroundIndex));
+    private void initializeLastRowOfRelationshipInTheMap() {
+        int mapIndex=LENGTH-2;
+        for(int index=0;index<WIDTH-2;index++){
+            mapIndex=getIndexInTheRowButNextLine(mapIndex);
+            relationshipForGroundIndexAndMarchForwardGround.add(mapIndex);
         }
     }
 
-    private void generateLine(Ground firstGround, Ground lastGround) {
-        stringBuffer.append(firstGround.getGroundType().getDisplayName());
-        stringBuffer.append(generateSpaceString());
-        stringBuffer.append(lastGround.getGroundType().getDisplayName());
-        stringBuffer.append("\n");
+    private void initializeLastLineOfRelationshipInTheMap() {
+        for(int index=TOTAL-2;index>=TOTAL-LENGTH;index--){
+            relationshipForGroundIndexAndMarchForwardGround.add(index);
+        }
     }
 
-    private StringBuffer generateSpaceString() {
-        StringBuffer stringBuffer=new StringBuffer();
-        for(int count=0;count<LENGTH-2;count++){
-            stringBuffer.append(" ");
+    private void initializeFirstRowOfRelationshipInTheMap() {
+        int mapIndex=TOTAL-LENGTH;
+        for(int index=0;index<WIDTH-2;index++){
+            mapIndex=getIndexInTheRowButPrecedingLine(mapIndex);
+            relationshipForGroundIndexAndMarchForwardGround.add(mapIndex);
         }
-        return stringBuffer;
+    }
+
+    private  int getIndexInTheRowButNextLine(int mapIndex){
+       return mapIndex+LENGTH ;
+    }
+
+    private  int getIndexInTheRowButPrecedingLine(int mapIndex){
+        return mapIndex-LENGTH ;
     }
 
 
-    private void generateLastLine(List<Ground> groundList) {
-        for(int index=groundList.size()-WIDTH-1,count=0;count<LENGTH;count++,index--) {
-            stringBuffer.append(groundList.get(index).getGroundType().getDisplayName()) ;
+    public List<Ground> generateMapPrintPattern(List<Ground> groundList) {
+        prepareEmptyGroundForMap();
+        prepareTurnGroundForMap();
+        prepareMarchForwardGroundForMap(groundList);
+        return groundMap;
+    }
+
+    private void prepareEmptyGroundForMap() {
+        for(int count=0;count<TOTAL;count++) {
+            groundMap.add(GroundFactory.newEmptyGround());
         }
-        stringBuffer.append("\n");
+    }
+
+    private void prepareTurnGroundForMap() {
+        int turnIndex=LENGTH-1;
+        for(int count=0;count<WIDTH;count++) {
+            groundMap.set(turnIndex, GroundFactory.newTurnGround());
+            turnIndex=getIndexInTheRowButNextLine(turnIndex);
+        }
+    }
+
+    private void prepareMarchForwardGroundForMap(List<Ground> groundList) {
+        for(int count=0;count<groundList.size();count++) {
+            groundMap.set(relationshipForGroundIndexAndMarchForwardGround.get(count),groundList.get(count));
+        }
     }
 }

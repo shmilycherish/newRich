@@ -9,7 +9,8 @@ package RichMap;
  */
 public enum GroundType {
     Start("S"), Hospital("H"), Toy("T"), Gift("G"), Prison("P"),
-    Magic("M"), Points("$"), Clearing("0"),Bothy("1"), ForeignStyleHouse("2"), Skyscraper("3");
+    Magic("M"), Points("$"), Clearing("0"),Bothy("1"), ForeignStyleHouse("2"),
+    Skyscraper("3"), Empty(" "), Turn("\n");
 
     private String displayName;
 
