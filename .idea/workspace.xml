@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10664562-1504-45f4-9b32-3a27bb713bd2" name="Default" comment="addAndAlter">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RichMap/EmptyGround.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RichMap/GroundFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RichMap/TurnGround.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RichMap/GroundType.java" afterPath="$PROJECT_DIR$/src/main/java/RichMap/GroundType.java" />
+    <list default="true" id="10664562-1504-45f4-9b32-3a27bb713bd2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/enigma-console-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Tool/ColorPrint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/enigma_console_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_9_5.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RichMap/MapPrintPattern.java" afterPath="$PROJECT_DIR$/src/main/java/RichMap/MapPrintPattern.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RichMap/MapPrintPatternTest.java" afterPath="$PROJECT_DIR$/src/test/java/RichMap/MapPrintPatternTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rich.iml" afterPath="$PROJECT_DIR$/Rich.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RichMap/RichGameMap.java" afterPath="$PROJECT_DIR$/src/main/java/RichMap/RichGameMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RichMap/RichGameMapTest.java" afterPath="$PROJECT_DIR$/src/test/java/RichMap/RichGameMapTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Rich\src\test\java\RichMap\groundTest.java" afterPath="$PROJECT_DIR$/src/test/java/RichMap/GroundTest.java" />
     </list>
     <ignored path="Rich.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364354028248" ignored="false" />
+    <file path="/Dummy.txt" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364361919254" ignored="false" />
     <file path="/groundTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363443826927" ignored="false" />
     <file path="/fragment.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364355757175" ignored="false" />
     <file path="/Ground.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363786502698" ignored="false" />
@@ -36,21 +34,23 @@
     <file path="/HouseGround.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363786969143" ignored="false" />
     <file path="D:/RichWork/src/test/java/GameMap/GameMapTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363612821006" ignored="false" />
     <file path="/GameMapTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363612819090" ignored="false" />
-    <file path="/RichGameMap.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364042033366" ignored="false" />
+    <file path="/RichGameMap.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364366923633" ignored="false" />
     <file path="/GroundType.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363785579281" ignored="false" />
     <file path="/GroundTypeTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363785644994" ignored="false" />
     <file path="/HospitalGround.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363785974121" ignored="false" />
-    <file path="/RichGameMapTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364131169942" ignored="false" />
+    <file path="/RichGameMapTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364367073488" ignored="false" />
     <file path="/ToyGround.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363786144534" ignored="false" />
     <file path="/GiftGround.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363786235356" ignored="false" />
     <file path="/PrisonGround.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1363786280386" ignored="false" />
     <file path="/MapPrintPatternTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364361606759" ignored="false" />
     <file path="/MapPrintPattern.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364361777971" ignored="false" />
-    <file path="D:/RichWork/src/test/java/Game/RichPreparationTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364131092502" ignored="false" />
+    <file path="D:/RichWork/src/test/java/Game/RichPreparationTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364365266694" ignored="false" />
     <file path="/RichPreparationTest.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364131092502" ignored="false" />
     <file path="/EmptyGround.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364307407827" ignored="false" />
     <file path="/TurnGround.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364307727399" ignored="false" />
     <file path="/GroundFactory.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364307989602" ignored="false" />
+    <file path="D:/RichWork/src/main/java/Game/SetColor.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364363313889" ignored="false" />
+    <file path="/ColorPrint.java" changelist="10664562-1504-45f4-9b32-3a27bb713bd2" time="1364366792933" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +154,7 @@
       <file leaf-file-name="MapPrintPattern.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RichMap/MapPrintPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="31" selection-start="1208" selection-end="1255" vertical-scroll-proportion="0.0">
+            <state line="98" column="27" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#299#307#0" expanded="true" />
@@ -182,11 +182,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RichGameMap.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RichGameMap.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RichMap/RichGameMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="5" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.6694215">
+            <state line="112" column="17" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColorPrint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tool/ColorPrint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="20" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RichGameMapTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RichMap/RichGameMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="74" selection-start="3160" selection-end="3160" vertical-scroll-proportion="1.2608696">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,22 +232,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/RichMap/HouseGround.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/HospitalGround.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/MagicGround.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/PointsGround.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/PrisonGround.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/StartGround.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/ToyGround.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RichMap/RichGameMapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/EmptyGround.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/TurnGround.java" />
         <option value="$PROJECT_DIR$/src/test/java/RichMap/GroundTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/GroundType.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/GroundFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RichMap/MapPrintPattern.java" />
         <option value="$PROJECT_DIR$/src/test/java/RichMap/MapPrintPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RichMap/MapPrintPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tool/ColorPrint.java" />
         <option value="$PROJECT_DIR$/src/main/java/RichMap/RichGameMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RichMap/RichGameMapTest.java" />
       </list>
     </option>
   </component>
@@ -351,6 +373,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -367,6 +393,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,8 +469,18 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Player" />
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,14 +493,14 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/Player" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/enigma-console-2.0.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -452,6 +514,9 @@
     <property name="Downloaded.Files.Path" value="D:\Rich\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Rich\lib" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="RichMap" />
       <recent name="Player" />
@@ -460,7 +525,7 @@
       <recent name="Player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MapPrintPatternTest">
+  <component name="RunManager" selected="JUnit.RichGameMapTest">
     <configuration default="false" name="GroundTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -717,9 +782,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MapPrintPatternTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GroundTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RichGameMapTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RichGameMapTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MapPrintPatternTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GroundTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.All in Rich" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.GroundTypeTest" />
       </list>
@@ -782,7 +847,11 @@
       <created>1364123487038</created>
       <updated>1364123487038</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="addAndAlter">
+      <created>1364361937972</created>
+      <updated>1364361937972</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -809,7 +878,7 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300813" sideWeight="0.47406808" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5089431" sideWeight="0.47406808" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -822,12 +891,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.493517" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.49027553" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49027553" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.14471544" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.10569106" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.67479676" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.5138211" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68292683" sideWeight="0.80226904" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.37398374" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3300813" sideWeight="0.80226904" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -901,13 +970,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/RichMap/HouseGround.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RichMap/ToyGround.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="6" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
@@ -957,13 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RichMap/RichGameMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="33" selection-start="1971" selection-end="1971" vertical-scroll-proportion="1.2151163">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RichMap/Ground.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="23" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
@@ -992,9 +1047,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RichMap/MapPrintPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="84" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RichMap/MapPrintPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="31" selection-start="1208" selection-end="1255" vertical-scroll-proportion="0.0">
+        <state line="98" column="27" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#299#307#0" expanded="true" />
@@ -1003,17 +1065,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RichMap/MapPrintPatternTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/ColorPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="84" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="25" column="20" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RichMap/RichGameMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="5" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.6694215">
+        <state line="112" column="17" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RichMap/RichGameMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="74" selection-start="3160" selection-end="3160" vertical-scroll-proportion="1.2608696">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,7 +1167,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.hamcrest:hamcrest-core:1.3</last-edited>
+          <last-edited>org.mockito:mockito-all:1.9.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

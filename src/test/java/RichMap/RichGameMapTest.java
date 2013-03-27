@@ -1,6 +1,8 @@
 package RichMap;
 
+import Tool.ColorPrint;
 import org.junit.Test;
+import org.mockito.Mockito;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -40,8 +42,20 @@ public class RichGameMapTest {
 
     @Test
       public void  shouldPrintMapWhenPrintMapOnConsole(){
-
-
+        ColorPrint colorPrint= Mockito.mock(ColorPrint.class);
+        RichGameMap richGameMap=new RichGameMap();
+        richGameMap.printMap(colorPrint);
+        Mockito.verify(colorPrint, Mockito.times(240)).printColorString(Mockito.anyString());
+        Mockito.verify(colorPrint, Mockito.times(1)).printColorString("S");
+        Mockito.verify(colorPrint, Mockito.times(1)).printColorString("H");
+        Mockito.verify(colorPrint, Mockito.times(1)).printColorString("T");
+        Mockito.verify(colorPrint, Mockito.times(1)).printColorString("G");
+        Mockito.verify(colorPrint, Mockito.times(1)).printColorString("P");
+        Mockito.verify(colorPrint, Mockito.times(1)).printColorString("M");
+        Mockito.verify(colorPrint, Mockito.times(6)).printColorString("$");
+        Mockito.verify(colorPrint, Mockito.times(58)).printColorString("0");
+        Mockito.verify(colorPrint, Mockito.times(8)).printColorString("\n");
+        Mockito.verify(colorPrint, Mockito.times(162)).printColorString(" ");
 
     }
 

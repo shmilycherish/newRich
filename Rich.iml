@@ -21,6 +21,8 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="enigma-console-2.0" level="project" />
+    <orderEntry type="library" name="org.mockito:mockito-all:1.9.5" level="project" />
   </component>
 </module>
 

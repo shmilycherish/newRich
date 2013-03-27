@@ -95,4 +95,8 @@ public class MapPrintPattern {
             groundMap.set(relationshipForGroundIndexAndMarchForwardGround.get(count),groundList.get(count));
         }
     }
+
+    public int getTotal() {
+        return TOTAL;
+    }
 }
