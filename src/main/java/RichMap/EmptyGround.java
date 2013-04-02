@@ -1,5 +1,7 @@
 package RichMap;
 
+import Tool.ColorPrint;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cherish
@@ -11,5 +13,10 @@ public class EmptyGround extends Ground{
     @Override
     public GroundType getGroundType() {
         return GroundType.Empty;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public void printGroundDisplayName(ColorPrint colorPrint) {
+        colorPrint.printColorString(GroundType.Empty.getDisplayName());
     }
 }

@@ -1,5 +1,7 @@
 package RichMap;
 
+import Tool.ColorPrint;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cherish
@@ -11,6 +13,11 @@ public class PrisonGround extends Ground {
     @Override
     public GroundType getGroundType() {
         return GroundType.Prison;
+    }
+
+    @Override
+    public void printGroundDisplayName(ColorPrint colorPrint) {
+        colorPrint.printColorString(GroundType.Prison.getDisplayName());
     }
 
 

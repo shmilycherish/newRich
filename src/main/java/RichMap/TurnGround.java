@@ -1,5 +1,7 @@
 package RichMap;
 
+import Tool.ColorPrint;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cherish
@@ -12,5 +14,10 @@ public class TurnGround extends Ground{
     @Override
     public GroundType getGroundType() {
         return GroundType.Turn;
+    }
+
+    @Override
+    public void printGroundDisplayName(ColorPrint colorPrint) {
+        colorPrint.printColorString(GroundType.Turn.getDisplayName());
     }
 }

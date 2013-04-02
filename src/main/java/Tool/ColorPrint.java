@@ -20,8 +20,8 @@ public class ColorPrint {
         console = Enigma.getConsole("Rich");
     }
 
-    public void printColorString(String message){
-        TextAttributes attributes = new TextAttributes(Color.BLACK);
+    public void  printColorString(String message){
+        TextAttributes attributes = new TextAttributes(Color.GRAY);
         console.setTextAttributes(attributes);
         System.out.print(message);
     }

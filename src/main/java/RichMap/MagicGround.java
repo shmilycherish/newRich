@@ -1,5 +1,7 @@
 package RichMap;
 
+import Tool.ColorPrint;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cherish
@@ -14,5 +16,10 @@ public class MagicGround extends Ground {
     @Override
     public GroundType getGroundType() {
         return GroundType.Magic;
+    }
+
+    @Override
+    public void printGroundDisplayName(ColorPrint colorPrint) {
+        colorPrint.printColorString(GroundType.Magic.getDisplayName());
     }
 }

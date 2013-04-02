@@ -1,5 +1,7 @@
 package RichMap;
 
+import Tool.ColorPrint;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cherish
@@ -13,4 +15,6 @@ public  abstract class Ground {
 
 
     public abstract GroundType getGroundType();
+
+    public abstract void printGroundDisplayName(ColorPrint colorPrint);
 }

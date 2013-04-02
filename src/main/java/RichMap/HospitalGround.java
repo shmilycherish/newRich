@@ -1,5 +1,7 @@
 package RichMap;
 
+import Tool.ColorPrint;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cherish
@@ -13,5 +15,10 @@ public class HospitalGround extends Ground {
     @Override
     public GroundType getGroundType() {
         return GroundType.Hospital;
+    }
+
+    @Override
+    public void printGroundDisplayName(ColorPrint colorPrint) {
+        colorPrint.printColorString(GroundType.Hospital.getDisplayName());
     }
 }

@@ -1,5 +1,7 @@
 package RichMap;
 
+import Tool.ColorPrint;
+
 /**
  * Created with IntelliJ IDEA.
  * User: cherish
@@ -22,6 +24,11 @@ public class PointsGround extends Ground {
     @Override
     public GroundType getGroundType() {
         return GroundType.Points;
+    }
+
+    @Override
+    public void printGroundDisplayName(ColorPrint colorPrint) {
+        colorPrint.printColorString(GroundType.Points.getDisplayName());
     }
 
     public int getPoints() {

@@ -110,7 +110,7 @@ public class RichGameMap {
         MapPrintPattern mapPrintPattern=new MapPrintPattern();
         List<Ground> groundMapList=mapPrintPattern.generateMapPrintPattern(groundList);
         for(int count=0;count<mapPrintPattern.getTotal();count++){
-            colorPrint.printColorString(groundMapList.get(count).getGroundType().getDisplayName());
+            groundMapList.get(count).printGroundDisplayName(colorPrint);
         }
     }
 }
